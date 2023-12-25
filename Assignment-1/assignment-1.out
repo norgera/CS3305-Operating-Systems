@@ -1,0 +1,63 @@
+Script started on 2023-01-31 14:33:57-05:00 [COMMAND="./run-assignment.sh 1" TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 1 STARTED - Tue 31 Jan 2023 02:33:57 PM EST
+
+Cleaning environment
+----------------------------
+rm -f assignment-1.o assignment-1
+
+Checking environment
+----------------------------
+f840705b6230882e53b84c72207d405a  ./run-assignment.sh
+ec54bf2a4f3476d1770b9c8b49d6d278  assignment-1.c
+checkPassword.o: OK
+hackme: OK
+Makefile: OK
+checkPassword.h: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/norgera/3305/Assignment-1'
+gcc -c assignment-1.c -Wall -Wpedantic -Wextra -std=gnu17
+gcc -o assignment-1 checkPassword.o assignment-1.o -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/norgera/3305/Assignment-1'
+
+Assignment 1 (without forking)
+----------------------------
+assignment-1,681197
+Cs3
+305
+isF
+un!
+115 Seconds
+
+Assignment 1 (with forking)
+-------------------------
+PID 1.0 IS 681539. Child 1.1 IS 681541
+PID 1.1 IS 681541. PPID IS 1.0 681539
+PID 1.0 IS 681539. Child 1.2 IS 681542
+PID 1.1 IS 681541. Child 1.1.1 IS 681543
+PID 1.1.1 IS 681543. PPID 1.1 IS 681541
+PID 1.2 IS 681542. PPID 1.0 IS 681540
+assignment-1,681539 -f
+  ├─assignment-1,681541 -f
+  │   └─assignment-1,681543 -f
+  └─assignment-1,681542 -f
+305
+Cs3
+isF
+un!
+46 Seconds
+
+Enter your guess: Cs3305Is  isFun!
+Trying: Cs3305isFun!
+Please enter a password: ACCESS GRANTED!
+
+Cleaning environment
+----------------------------
+rm -f assignment-1.o assignment-1
+
+ASSIGNMENT 1 COMPLETED - Tue 31 Jan 2023 02:36:51 PM EST
+
+Script done on 2023-01-31 14:36:51-05:00 [COMMAND_EXIT_CODE="0"]
