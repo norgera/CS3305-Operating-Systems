@@ -1,7 +1,8 @@
 # CS3305-Operating-Systems
 
-Course Description:
 Survey of major operating systems; interprocess communication; multi-tasking; scheduling; memory management; performance and measurement issues; trade-offs in operating system design; concurrency and deadlock.
+</br></br>
+
 
 Assignment 1: Brute force password cracker. 
               Uses forking to increase speed of program
