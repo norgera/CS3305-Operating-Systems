@@ -15,5 +15,3 @@ Assignment 3: Calculates the sum of prime numbers given command line perameters.
 
 Assignment 4: Partition program to calculate the average wait and turnaround times using various CPU scheduling algorithms given command line perameters.
               Uses First Come First Served, Shortest Job First, and Round Robin CPU scheduling algorithms.
-
-Assignment 5: Multi-Threaded Banking Simulation. Uses mutual exclusion algorithm for synchronization between multiple shared bank accounts
